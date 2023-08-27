@@ -49,5 +49,4 @@ def seatchecking(checker, list):
 Passengerlist = ["Dayo", "Kunle", "Dolapo", "Segun", "Ayo"]
 checker = Seatscheck(25)
 Passengerlist.append("Kayode")
-
 seatchecking(checker, Passengerlist)

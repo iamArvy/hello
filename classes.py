@@ -5,9 +5,9 @@ class Agegroup:
         # print(self.__class__.__name__)
 
 def announce(f):
-    def wrapper():
+    def wrapper(a,b):
         print("Checking for seats")
-        f()
+        f(a,b)
     return wrapper
 
 
@@ -48,5 +48,4 @@ def seatchecking(checker, list):
 
 Passengerlist = ["Dayo", "Kunle", "Dolapo", "Segun", "Ayo"]
 checker = Seatscheck(25)
-Passengerlist.append("Kayode")
 seatchecking(checker, Passengerlist)

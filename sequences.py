@@ -34,6 +34,6 @@ numb = [1,3,4,5,3,4,5,5]
 
 # Dictionary
 Age_range = {"Name": "Age", "Arvy": 21, "Josh": 23}
-Age_range["Shade"] = 18 
+Age_range["Shade"] = 18
 print(Age_range["Shade"])
 
